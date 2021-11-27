@@ -3,9 +3,8 @@
     <Nav />
 
     <div class="container">
-      <Hero />
       <LargeCardDisplay
-        v-for="cardInfo in largeCardInfo"
+        v-for="cardInfo in largeCardInfo.slice(0, 1)"
         :key="cardInfo.id"
         :cardSection="cardInfo"
       />
@@ -31,3 +30,5 @@ export default {
   },
 }
 </script>
+
+<style scoped></style>

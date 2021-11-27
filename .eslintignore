@@ -1,0 +1,5 @@
+!.eslintrc.js
+build/
+components/
+pages/
+store/
